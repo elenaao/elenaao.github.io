@@ -1,1 +1,86 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>2.1.5 Project</title>
+<link href = "style.css" rel = "stylesheet">
+</head>
+ 
+<body>
+</body>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"><b>2.1.5 Project</b></div>
+       <p> <b>Goal of the project :</b> The purpose of this project is to program the SDV to move to each grid I choose. I could three grids. Grid two easy grid 5 intermediate and grid eight difficult. However I can only use a single 2D list to program it. Each grid has an orange end , a green start , and a red block that SDV has to move around. .</p>
+<img scr="mmm.PNG"/>
+        <p><b>Pseudo code :</b>
+when the program start 
+set col to 1
+set row to 1
+set grid to path #2 
+make grid to path #5 
+make grid to path #8
+while row is less than 6 
+set col to 1 
+while col is less than 6 
+if item row , col of grid equal's 1 than 
+set pen color to orange on brain 
+print X on brain
+else if item row , col of grid equal's 2 than 
+set pen color to red on brain 
+print X on brain 
+ else if item row, col of grid equal's 3 than 
+set pen color to green on brain 
+print X on brain 
+else 
+set pen color to white on brain 
+print X on brain 
+change col by 1 
+set cursor to next row 
+change row by 1 
+if item 5 5 of grid = 3 and item 4 2 of grid = 0 then 
+print Path #2 on brain 
+repeat 4 broadcast FWD and wait 
+broadcast LT and wait 
+repeat 4 broadcast FWD and wait 
+broadcast LT and wait 
+else if item 3 5 of grid = 2 and item 4 2 = 2 then
+print Path #5 on brain 
+broadcast FWD and wait 
+broadcast LT and wait 
+repeat 3 broadcast FWD and wait 
+broadcast LT and wait 
+repeat 3 broadcast FWD and wait 
+broadcast LT and wait 
+broadcast FWD and wait 
+else if item 1 1 of grid = 3 then 
+print Path #8 on brain 
+broadcast FWD and wait
+broadcast RT and wait 
+repeat 3 broadcast FWD and wait 
+broadcast RT and wait 
+repeat 3 broadcast FWD and wait 
+broadcast RT and wait 
+broadcast FWD and wait 
+else 
+print no grid selected.
+when I receive LT 
+spin motor1 reverse for 200 degrees 
+when I receive LT 
+spin motor2 forward for 200
+when I receive FWD 
+spin motor1 forward for 360 degrees 
+when I receive FWD 
+spin motor2 forward for 360 degrees
+when I receive RT
+spin motor1 forward for 200 degrees 
+when I receive RT 
+spin motor2 reverse for 200 degrees
+         </p>
+   <p> <b> Code</b>  </p>
+        <img scr="c1.PNG"/>
+        <img src="c2.PNG"/> 
+      <img scr="c3.PNG"/>
+        <img scr="c4.PNG"/>
+   <p> <b> Reflection : </b>   2D list were helpful with programming this code because it made it easy for me to tell the SDV where and how it is supposed to be moving. I used nested loops because I was using 2D lists and nested loops help store multidimensional data.  </p>   
+</html>
