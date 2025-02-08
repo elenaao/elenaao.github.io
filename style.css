@@ -37,7 +37,7 @@ ul {
 }
 
 /*****Picture and name*****/
-.picture {
+.picture { <img src="thumbsUp_jhpeg" alt="hey">
   height: 9rem;
   width: 9rem;
   background-color: #52c8ff;
