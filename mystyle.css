@@ -10,3 +10,9 @@ h1 {
   margin-left: 20 px;
    font-family: "Lucida Console", monospace;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
