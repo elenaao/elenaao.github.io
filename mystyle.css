@@ -1,8 +1,13 @@
 body {
   background-color: pink;
+    text-align: center;
+ font-family: "Lucida Console", "Courier New", monospace;
+   font-size: 40 px;
 }
 
 h1 {
   color: navy;
-  margin-left: 20px;
+  margin-left: 20 px;
+    text-align: center;
+   font-family: "Lucida Console", "Courier New", monospace;
 }
