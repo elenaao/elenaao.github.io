@@ -19,7 +19,7 @@ h1 {
 
 .navbar.ul{
   list-style-type : none ; 
-  background-color : pink ; 
+  background-color : hotpink ; 
   padding: 0px;
   margin: 0px; 
   overflow: hidden;
@@ -32,7 +32,7 @@ color : white ;
   text align : center  ; 
 }
 .navbar a:hover{ 
-  background-color : pink ;
+  background-color : hotpink ;
 }
 .narbar  li{ 
 float: left ;
