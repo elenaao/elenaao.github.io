@@ -1,4 +1,5 @@
 body {
+  margin: 0 px;
   background-color: pink;
     text-align: center;
     color: white;
@@ -11,17 +12,27 @@ body {
 
 h1 {
   color: white;
+  text-align: center;
   margin-left: 20 px;
    font-family: "Lucida Console", monospace;
 }
 
-li {
-  float: left;
+.navbar.ul{
+  list-style-type : none ; 
+  background-color : pink ; 
+  padding: 0px;
+  margin: 0px; 
+  overflow: hidden;
 }
-
-a {
-  display: block;
-  padding: 8 px;
-  background-color: pink;
-  color: white;
+.navbar a{
+color : white ; 
+  text-decoration: none ;
+  padding 15px; n
+  display : block ; 
+  text align : center  ; 
 }
+.navbar a:hover{ 
+  background-color : pink ;
+}
+.narbar  li{ 
+float: left ;
